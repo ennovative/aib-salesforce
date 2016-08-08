@@ -1,7 +1,3 @@
-/*
-    LOGIN
-*/
-
 .salesforceIdentityLoginBody button.sfdc_button.uiButton .label {
     color: #ffffff !important;
 }
@@ -19,14 +15,7 @@
     bottom: -50px;
 }
 
-.salesforceIdentityLoginForm a {
-color: #006EB3 !important;
-}
-
-/*
-    MAIN
-*/
-
+<<<<<<< Updated upstream
 .forceCommunityNavigationMenu {
     background: #3f3935;
 }
@@ -51,4 +40,8 @@ color: #006EB3 !important;
     .siteforceNapiliBody .cProfileCon {
         width: 25%;
     }
+=======
+.salesforceIdentityLoginForm a {
+    color: #006EB3 !important;
+>>>>>>> Stashed changes
 }
