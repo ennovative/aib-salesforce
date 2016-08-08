@@ -1,0 +1,16 @@
+.salesforceIdentityLoginBody button.sfdc_button.uiButton .label {
+    color: #ffffff !important;
+}
+
+.salesforceIdentityLoginBody img.communityLogo {
+    width: 100%;
+}
+
+.salesforceIdentityLoginBody div#content {
+    min-width: 300px;
+}
+
+.salesforceIdentityLoginBody div#content:before {
+    top: -45px;
+    bottom: -50px;
+}
