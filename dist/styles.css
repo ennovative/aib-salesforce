@@ -30,6 +30,7 @@ body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .searc
   background-color: #e88517;
 }
 body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .search-field {
+  height: 40px;
   border-radius: 21px;
   background-color: #efcacc;
   border-color: #efcacc;
