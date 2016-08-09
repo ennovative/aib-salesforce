@@ -5,6 +5,7 @@
 * {
   font-family: "vagrounded" !important;
   letter-spacing: 1px;
+  text-transform: none;
 }
 
 body .forceCommunityNavigationMenu {
@@ -31,13 +32,11 @@ body .siteforceNapiliBody li.uiTabItem.active {
 body .siteforceNapiliBody .forceCommunityHeadline .headlineTitle {
   color: #D23138;
   font-size: 24px;
-  font-family: "vagrounded";
 }
 body .siteforceNapiliBody .forceCommunityTrendingTopics .forceTopicTopicList .topicListHeader {
   color: #F7901E;
   padding: .5rem 0;
   font-size: 1rem;
-  font-family: "vagrounded";
 }
 body .siteforceNapiliBody ul.tabs__nav {
   border-color: #bcbbb9;
