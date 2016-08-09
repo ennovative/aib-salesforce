@@ -19,9 +19,12 @@
     bottom: -50px;
 }
 
-.salesforceIdentityLoginForm a {
-color: #006EB3 !important;
+.salesforceIdentityLoginForm a,
+.salesforceIdentityLoginBody a {
+    color: #006EB3 !important;
 }
+
+
 
 /*
     MAIN
