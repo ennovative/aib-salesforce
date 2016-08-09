@@ -19,6 +19,10 @@ body {
 
 
     .siteforceNapiliBody {
+        .slds-col--padded .ui-widget {
+            margin: 36px 0 0 0;
+        }
+
         .uiTabBar .uiTabItem {
             &.active a.tabHeader {
                 color: $orange;
