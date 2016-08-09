@@ -23,6 +23,11 @@ body {
 
 
     .siteforceNapiliBody {
+        .cFooterPanel {
+            background: image-url('aib-footer.jpg') no-repeat center;
+            height: 265px;
+        }
+
         .forceCommunityOmniBox {
             &.selfServiceSearchWrapper {
                 .search-input-group {

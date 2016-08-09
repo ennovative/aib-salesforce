@@ -20,6 +20,10 @@ body .forceTopicFeaturedTopics .topicLabel {
 body .forceCommunityTrendingTopics.hideEl {
   display: initial;
 }
+body .siteforceNapiliBody .cFooterPanel {
+  background: url('../images/aib-footer.jpg') no-repeat center;
+  height: 265px;
+}
 body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .search-input-group {
   height: 40px;
   z-index: 2;
