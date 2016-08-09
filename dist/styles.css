@@ -53,6 +53,9 @@ body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .searc
   background-color: #efcacc;
   border-color: #efcacc;
 }
+body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .search-field:focus {
+  box-shadow: none !important;
+}
 body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .has-input .search-container {
   box-shadow: none;
 }

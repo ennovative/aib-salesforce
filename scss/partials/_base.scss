@@ -56,6 +56,9 @@ body {
                     border-radius: 21px;
                     background-color: $musk;
                     border-color: $musk;
+                    &:focus {
+                        box-shadow: none !important;
+                    }
                 }
 
                 .has-input .search-container {
