@@ -1,7 +1,10 @@
 
+<<<<<<< Updated upstream
 @import 'modules/fonts';
-@import 'modules/colours';
 
+=======
+@import 'colours';
+>>>>>>> Stashed changes
 @import 'partials/base';
 @import 'partials/login';
 @import 'partials/home';
