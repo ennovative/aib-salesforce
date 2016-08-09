@@ -23,24 +23,53 @@ body {
 
 
     .siteforceNapiliBody {
-        .forceCommunityOmniBox.selfServiceSearchWrapper {
-            .search-button.uiButton {
-                border-radius:20px;
-                background-color: $orange;
-                height: 40px;
-                right: -1px;
+        .forceCommunityOmniBox {
+            &.selfServiceSearchWrapper {
+                .search-input-group {
+                    height: 40px;
+                    z-index: 2;
+                }
 
-                &:hover { 
-                    background-color: $darkOrange;
+                .result-container {
+                    z-index: 1;
+                    margin-top: -25px;
+                    padding-top: 28px;
+                }
+
+                .search-button.uiButton {
+                    border-radius:20px;
+                    background: #cb3d3c; /* Old browsers */
+                    background: -moz-linear-gradient(left,  #cb3d3c 0%, #e5772d 100%); /* FF3.6-15 */
+                    background: -webkit-linear-gradient(left,  #cb3d3c 0%,#e5772d 100%); /* Chrome10-25,Safari5.1-6 */
+                    background: linear-gradient(to right,  #cb3d3c 0%,#e5772d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb3d3c', endColorstr='#e5772d',GradientType=1 ); /* IE6-9 */
+                    height: 40px;
+                    right: -1px;
+
+                    &:hover { 
+                        background-color: $darkOrange;
+                    }
+                }
+            
+                .search-field {
+                    height: 40px;
+                    border-radius: 21px;
+                    background-color: $musk;
+                    border-color: $musk;
+                }
+
+                .has-input .search-container {
+                    box-shadow: none;
+                }
+
+                &.show-result {
+                    .has-input .search-container {
+                        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+                    }
                 }
             }
+
             
-            .search-field {
-                height: 40px;
-                border-radius: 21px;
-                background-color: $musk;
-                border-color: $musk;
-            }
         }
 
         .slds-col--padded .ui-widget {
