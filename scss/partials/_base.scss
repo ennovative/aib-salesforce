@@ -26,6 +26,49 @@ body {
         .cFooterPanel {
             background: image-url('aib-footer.jpg') no-repeat center;
             height: 265px;
+            max-width: 1140px;
+            margin: 0 auto;
+            position: relative;
+            color: $white;
+
+            .cta-button {
+                width: auto;
+                display: block;
+
+                .uiButton {
+                    background: transparent;
+                    border: 2px solid $white;
+                    width: 220px;
+
+                    &:hover {
+                        background: rgba(0, 0, 0, 0.3) !important;
+                    }
+                }
+            }
+
+            a {
+                color: $white;
+                text-decoration: underline;
+            }
+
+            .tagline {
+                position: absolute;
+                left: 30px;
+                bottom: 33px;
+
+                span {
+                    display:block;
+
+                    &.line1 {
+                        font-size: 28px;
+                    }
+                    &.line2 {
+                        font-size: 48px;
+                        line-height: 33px;
+                        font-weight: bold;
+                    }
+                }
+            }
         }
 
         .forceCommunityOmniBox {
