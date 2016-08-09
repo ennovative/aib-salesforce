@@ -23,6 +23,42 @@ body .forceCommunityTrendingTopics.hideEl {
 body .siteforceNapiliBody .cFooterPanel {
   background: url('../images/aib-footer.jpg') no-repeat center;
   height: 265px;
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  color: #fff;
+}
+body .siteforceNapiliBody .cFooterPanel .cta-button {
+  width: auto;
+  display: block;
+}
+body .siteforceNapiliBody .cFooterPanel .cta-button .uiButton {
+  background: transparent;
+  border: 2px solid #fff;
+  width: 220px;
+}
+body .siteforceNapiliBody .cFooterPanel .cta-button .uiButton:hover {
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+body .siteforceNapiliBody .cFooterPanel a {
+  color: #fff;
+  text-decoration: underline;
+}
+body .siteforceNapiliBody .cFooterPanel .tagline {
+  position: absolute;
+  left: 30px;
+  bottom: 33px;
+}
+body .siteforceNapiliBody .cFooterPanel .tagline span {
+  display: block;
+}
+body .siteforceNapiliBody .cFooterPanel .tagline span.line1 {
+  font-size: 28px;
+}
+body .siteforceNapiliBody .cFooterPanel .tagline span.line2 {
+  font-size: 48px;
+  line-height: 33px;
+  font-weight: bold;
 }
 body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .search-input-group {
   height: 40px;
