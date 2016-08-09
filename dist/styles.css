@@ -20,6 +20,20 @@ body .forceTopicFeaturedTopics .topicLabel {
 body .forceCommunityTrendingTopics.hideEl {
   display: initial;
 }
+body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .search-button.uiButton {
+  border-radius: 20px;
+  background-color: #F7901E;
+  height: 40px;
+  right: -1px;
+}
+body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .search-button.uiButton:hover {
+  background-color: #e88517;
+}
+body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .search-field {
+  border-radius: 21px;
+  background-color: #efcacc;
+  border-color: #efcacc;
+}
 body .siteforceNapiliBody .slds-col--padded .ui-widget {
   margin: 36px 0 0 0;
 }

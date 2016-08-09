@@ -23,6 +23,25 @@ body {
 
 
     .siteforceNapiliBody {
+        .forceCommunityOmniBox.selfServiceSearchWrapper {
+            .search-button.uiButton {
+                border-radius:20px;
+                background-color: $orange;
+                height: 40px;
+                right: -1px;
+
+                &:hover { 
+                    background-color: $darkOrange;
+                }
+            }
+            
+            .search-field {
+                border-radius: 21px;
+                background-color: $musk;
+                border-color: $musk;
+            }
+        }
+
         .slds-col--padded .ui-widget {
             margin: 36px 0 0 0;
         }
