@@ -24,6 +24,10 @@ body {
 
             a.tabHeader {
                 color: $darkGray;
+
+                &:hover {
+                    color: $orange;
+                }
             }
         }
 
@@ -31,7 +35,7 @@ body {
             border-color: $orange;
         }
 
-        .forceCommunityHeadline span.headlineTitle {
+        .forceCommunityHeadline h1.headlineTitle {
             color: $red;
             font-size: 24px;
         }
