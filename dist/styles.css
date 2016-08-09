@@ -2,8 +2,9 @@
   font-family: "vagrounded";
   src: url('../fonts/vagrounded/vagrounded_lt-normal-webfont.woff') format('woff'), url('../fonts/vagrounded/vagrounded_lt-normal-webfont.woff2') format('woff2');
 }
-html body {
-  font-family: "vagrounded";
+* {
+  font-family: "vagrounded" !important;
+  letter-spacing: 1px;
 }
 
 body .forceCommunityNavigationMenu {
@@ -21,15 +22,22 @@ body .siteforceNapiliBody .uiTabBar .uiTabItem.active a.tabHeader {
 body .siteforceNapiliBody .uiTabBar .uiTabItem a.tabHeader {
   color: #3D3834;
 }
+body .siteforceNapiliBody .uiTabBar .uiTabItem a.tabHeader:hover {
+  color: #F7901E;
+}
 body .siteforceNapiliBody li.uiTabItem.active {
   border-color: #F7901E;
 }
-body .siteforceNapiliBody .forceCommunityHeadline span.headlineTitle {
+body .siteforceNapiliBody .forceCommunityHeadline .headlineTitle {
   color: #D23138;
   font-size: 24px;
+  font-family: "vagrounded";
 }
 body .siteforceNapiliBody .forceCommunityTrendingTopics .forceTopicTopicList .topicListHeader {
   color: #F7901E;
+  padding: .5rem 0;
+  font-size: 1rem;
+  font-family: "vagrounded";
 }
 body .siteforceNapiliBody ul.tabs__nav {
   border-color: #bcbbb9;
