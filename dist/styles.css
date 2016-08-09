@@ -28,16 +28,16 @@ body .siteforceNapiliBody .cFooterPanel {
   position: relative;
   color: #fff;
 }
-body .siteforceNapiliBody .cFooterPanel .cta-button {
+body .siteforceNapiliBody .cFooterPanel .cta-btn {
   width: auto;
   display: block;
 }
-body .siteforceNapiliBody .cFooterPanel .cta-button .uiButton {
+body .siteforceNapiliBody .cFooterPanel .cta-btn .uiButton {
   background: transparent;
   border: 2px solid #fff;
   width: 220px;
 }
-body .siteforceNapiliBody .cFooterPanel .cta-button .uiButton:hover {
+body .siteforceNapiliBody .cFooterPanel .cta-btn .uiButton:hover {
   background: rgba(0, 0, 0, 0.3) !important;
 }
 body .siteforceNapiliBody .cFooterPanel a {
