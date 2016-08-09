@@ -28,6 +28,9 @@ body .siteforceNapiliBody .cFooterPanel {
   position: relative;
   color: #fff;
 }
+body .siteforceNapiliBody .cFooterPanel .forceCommunityRichText {
+  padding-top: 10px;
+}
 body .siteforceNapiliBody .cFooterPanel .cta-btn {
   width: auto;
   display: block;
@@ -113,6 +116,9 @@ body .siteforceNapiliBody .uiTabBar .uiTabItem a.tabHeader {
 }
 body .siteforceNapiliBody .uiTabBar .uiTabItem a.tabHeader:hover {
   color: #F7901E;
+}
+body .siteforceNapiliBody .tabs__content .forceTopicFeaturedTopics .topicLabel {
+  display: none;
 }
 body .siteforceNapiliBody li.uiTabItem.active {
   border-bottom: 6px solid #F7901E;

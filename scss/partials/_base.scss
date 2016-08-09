@@ -31,6 +31,10 @@ body {
             position: relative;
             color: $white;
 
+            .forceCommunityRichText {
+                padding-top: 10px;
+            }
+
             .cta-btn {
                 width: auto;
                 display: block;
@@ -138,6 +142,12 @@ body {
                 &:hover {
                     color: $orange;
                 }
+            }
+        }
+
+        .tabs__content {
+            .forceTopicFeaturedTopics .topicLabel {
+                display: none;
             }
         }
 
