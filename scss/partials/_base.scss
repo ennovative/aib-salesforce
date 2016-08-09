@@ -1,0 +1,31 @@
+body {
+    .forceCommunityNavigationMenu {
+        background: #3f3935;
+    }
+
+    .forceTopicFeaturedTopics .topicLabel {
+        text-transform: lowercase;
+    }
+
+    .forceCommunityTrendingTopics.hideEl {
+        display: initial;
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    body {
+        .siteforceNapiliBody {
+            .cBrandingProfile {
+                width: 35%;
+            }
+
+            .cSearchPublisher {
+                width: 40%;
+            }
+
+            .cProfileCon {
+                width: 25%;
+            }
+        }
+    }
+}
