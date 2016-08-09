@@ -2,53 +2,42 @@
   font-family: "vagrounded";
   src: url('../fonts/vagrounded/vagrounded_lt-normal-webfont.woff') format('woff'), url('../fonts/vagrounded/vagrounded_lt-normal-webfont.woff2') format('woff2');
 }
-/* line 1, ../scss/partials/_base.scss */
 html body {
   font-family: "vagrounded";
 }
 
-/* line 6, ../scss/partials/_base.scss */
 body .forceCommunityNavigationMenu {
   background: #3f3935;
 }
-/* line 10, ../scss/partials/_base.scss */
 body .forceTopicFeaturedTopics .topicLabel {
   text-transform: lowercase;
 }
-/* line 14, ../scss/partials/_base.scss */
 body .forceCommunityTrendingTopics.hideEl {
   display: initial;
 }
 
 @media only screen and (min-width: 48em) {
-  /* line 22, ../scss/partials/_base.scss */
   body .siteforceNapiliBody .cBrandingProfile {
     width: 35%;
   }
-  /* line 26, ../scss/partials/_base.scss */
   body .siteforceNapiliBody .cSearchPublisher {
     width: 40%;
   }
-  /* line 30, ../scss/partials/_base.scss */
   body .siteforceNapiliBody .cProfileCon {
     width: 25%;
   }
 }
-/* line 3, ../scss/partials/_login.scss */
 .salesforceIdentityLoginBody button.sfdc_button.uiButton .label {
   color: #ffffff !important;
 }
-/* line 7, ../scss/partials/_login.scss */
 .salesforceIdentityLoginBody img.communityLogo {
   min-width: 250px;
 }
-/* line 11, ../scss/partials/_login.scss */
 .salesforceIdentityLoginBody div#content:before {
   top: -45px;
   bottom: -50px;
 }
 
-/* line 17, ../scss/partials/_login.scss */
 .salesforceIdentityLoginForm a,
 .salesforceIdentityLoginBody a {
   color: #006EB3 !important;
