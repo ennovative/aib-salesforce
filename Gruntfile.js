@@ -66,10 +66,10 @@ module.exports = function (grunt) {
                 javascriptsDir: "scripts",
                 fontsDir: "fonts",
                 //importPath: "./bower_components",
-                httpImagesPath: "/images",
-                httpGeneratedImagesPath: "/images/generated",
-                httpFontsPath: "/fonts",
-                relativeAssets: false,
+                httpImagesPath: "../images",
+                httpGeneratedImagesPath: "../images/generated",
+                httpFontsPath: "../fonts",
+                relativeAssets: true,
                 assetCacheBuster: false,
                 raw: "Sass::Script::Number.precision = 10\n"
             },
@@ -104,6 +104,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-compass');
 
     // Default task
-    grunt.registerTask('default', ['jshint', 'concat', 'uglify']);
+    grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'compass:dist']);
 };
 
