@@ -132,7 +132,7 @@ body .siteforceNapiliBody .forceCommunityHeadline .headlineTitle {
   color: #D23138;
   font-size: 24px;
 }
-body .siteforceNapiliBody .forceCommunityTrendingTopics .forceTopicTopicList .topicListHeader {
+body .siteforceNapiliBody .slds-col--padded .ui-widget h2 {
   color: #F7901E;
   padding: .5rem 0;
   font-size: 1rem;
