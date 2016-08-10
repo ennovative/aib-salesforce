@@ -182,6 +182,9 @@ body .siteforceNapiliBody .uiTabBar .uiTabItem a.tabHeader {
 body .siteforceNapiliBody .uiTabBar .uiTabItem a.tabHeader:hover {
   color: #F7901E;
 }
+body .siteforceNapiliBody .tabs__content .ui-widget:first-of-type {
+  margin-top: 0 !important;
+}
 body .siteforceNapiliBody .tabs__content .forceTopicFeaturedTopics .topicLabel {
   display: none;
 }

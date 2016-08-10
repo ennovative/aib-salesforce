@@ -233,6 +233,10 @@ body {
         }
 
         .tabs__content {
+            .ui-widget:first-of-type {
+                margin-top: 0 !important;
+            }
+
             .forceTopicFeaturedTopics .topicLabel {
                 display: none;
             }
