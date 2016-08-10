@@ -138,10 +138,14 @@ body .siteforceNapiliBody .slds-col--padded .ui-widget .ctaPanel .cta_header {
 }
 body .siteforceNapiliBody .slds-col--padded .ui-widget .ctaPanel .contact-con .cta-btn {
   width: 100%;
-  margin: 0;
+  margin: 0.2em 0;
 }
 body .siteforceNapiliBody .slds-col--padded .ui-widget .ctaPanel .contact-con .cta-btn .label {
   text-transform: none;
+}
+body .siteforceNapiliBody .slds-col--padded .ui-widget .ctaPanel .contact-con .cta-btn .uiButton {
+  font-weight: normal;
+  border-radius: 0;
 }
 body .siteforceNapiliBody .slds-col--padded .ui-widget .ctaPanel .contact-con .cta-btn .forceCommunityAskCommunity {
   background-color: #F7901E;

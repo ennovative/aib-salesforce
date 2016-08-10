@@ -167,10 +167,15 @@ body {
 
                 .contact-con .cta-btn {
                     width: 100%;
-                    margin: 0;
+                    margin: 0.2em 0;
 
                     .label {
                         text-transform: none;
+                    }
+
+                    .uiButton {
+                        font-weight: normal;
+                        border-radius: 0;
                     }
 
                     .forceCommunityAskCommunity {
