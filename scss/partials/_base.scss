@@ -35,6 +35,35 @@ body {
             height: 60px;
         }
 
+        .forceCommunityTrendingTopics .listContent, 
+        .forceCommunityReputationLeaderboard .listContent {
+            padding: 10px 15px 15px 15px;
+            background-color: #e7e7e8;
+        }
+
+        .forceCommunityTrendingTopics {
+            .forceTopicTopicList .topicItem {
+                border-color: $ccc;
+            }
+        }
+        
+        .forceCommunityReputationLeaderboard .listContent {
+            .userName {
+                color: $navy;
+            }
+            .forceCommunityReputationLeaderboardRow {
+                border-color: $ccc;
+
+                .reputationCol:before {
+                    background: $ccc;
+                }
+
+                &.contextUser {
+                    background-color: transparent;
+                }
+            }
+        }
+
         .cFooterPanel {
             background: image-url('aib-footer.jpg') no-repeat center;
             height: 265px;

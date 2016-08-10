@@ -30,6 +30,26 @@ body .siteforceNapiliBody .cBrandingLogo {
   max-height: 60px;
   height: 60px;
 }
+body .siteforceNapiliBody .forceCommunityTrendingTopics .listContent,
+body .siteforceNapiliBody .forceCommunityReputationLeaderboard .listContent {
+  padding: 10px 15px 15px 15px;
+  background-color: #e7e7e8;
+}
+body .siteforceNapiliBody .forceCommunityTrendingTopics .forceTopicTopicList .topicItem {
+  border-color: #ccc;
+}
+body .siteforceNapiliBody .forceCommunityReputationLeaderboard .listContent .userName {
+  color: #304E80;
+}
+body .siteforceNapiliBody .forceCommunityReputationLeaderboard .listContent .forceCommunityReputationLeaderboardRow {
+  border-color: #ccc;
+}
+body .siteforceNapiliBody .forceCommunityReputationLeaderboard .listContent .forceCommunityReputationLeaderboardRow .reputationCol:before {
+  background: #ccc;
+}
+body .siteforceNapiliBody .forceCommunityReputationLeaderboard .listContent .forceCommunityReputationLeaderboardRow.contextUser {
+  background-color: transparent;
+}
 body .siteforceNapiliBody .cFooterPanel {
   background: url('../images/aib-footer.jpg') no-repeat center;
   height: 265px;
