@@ -262,6 +262,10 @@ body ul.hive li {
   height: 115px;
   padding: 2px;
   text-align: center;
+  margin-top: -20px;
+}
+body ul.hive li:nth-child(-n+3) {
+  margin-top: 20px;
 }
 body ul.hive img {
   max-width: 100%;
