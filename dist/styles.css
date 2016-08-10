@@ -136,6 +136,7 @@ body .siteforceNapiliBody .slds-col--padded .ui-widget h2 {
   color: #F7901E;
   padding: .5rem 0;
   font-size: 1rem;
+  text-transform: initial;
 }
 body .siteforceNapiliBody ul.tabs__nav {
   border-bottom: 6px solid #bcbbb9;
