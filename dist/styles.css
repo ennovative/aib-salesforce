@@ -23,6 +23,13 @@ body .forceCommunityTrendingTopics.hideEl {
 body .forceCommunityHeadline .headlineIcon {
   display: none;
 }
+body .siteforceNapiliBody .cProfileCon {
+  margin-top: 5px;
+}
+body .siteforceNapiliBody .cBrandingLogo {
+  max-height: 60px;
+  height: 60px;
+}
 body .siteforceNapiliBody .cFooterPanel {
   background: url('../images/aib-footer.jpg') no-repeat center;
   height: 265px;
@@ -65,6 +72,12 @@ body .siteforceNapiliBody .cFooterPanel .tagline span.line2 {
   font-size: 48px;
   line-height: 33px;
   font-weight: bold;
+}
+body .siteforceNapiliBody .forceCommunityOmniBox .no-assigned-image .default-bg-overlay {
+  background: none;
+}
+body .siteforceNapiliBody .forceCommunityOmniBox .body-search {
+  margin-top: 10px;
 }
 body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .search-input-group {
   height: 40px;
