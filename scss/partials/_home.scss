@@ -1,10 +1,16 @@
 body {
     .forceTopicFeaturedTopics .topicContent {
-        background-color: none;
+        background-color: initial;
     }
 
     .forceTopicFeaturedTopicItem.topicItem {
         height: 115px;
+    }
+
+    @media only screen and (min-width: 48em) {
+        .forceTopicFeaturedTopicItem.topicItem {
+            height: 360px;
+        }
     }
 
     @media only screen and (min-aspect-ratio: 4/3) and (min-width: 48em), only screen and (min-width: 64.0625em) {
@@ -12,12 +18,6 @@ body {
             width: 33.33333333333333%;
             height: 180px;
             padding: 2px;
-        }
-    }
-
-    @media only screen and (min-width: 48em) {
-        .forceTopicFeaturedTopicItem.topicItem {
-            height: 360px;
         }
     }
 }
