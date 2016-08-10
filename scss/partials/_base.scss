@@ -150,6 +150,38 @@ body {
 
         .slds-col--padded .ui-widget {
             margin: 36px 0 0 0;
+
+            h2 {
+                color: $orange;
+                padding: .5rem 0;
+                font-size: 1rem;
+                text-transform: initial;
+            }
+
+            .ctaPanel {
+                margin-top: 0;
+
+                .cta_header {
+                    display: none;
+                }
+
+                .contact-con .cta-btn {
+                    width: 100%;
+                    margin: 0;
+
+                    .label {
+                        text-transform: none;
+                    }
+
+                    .forceCommunityAskCommunity {
+                        background-color: $orange;
+                    }
+
+                    .communityBtn {
+                        background-color: $blue;
+                    }
+                }
+            }
         }
 
         .uiTabBar .uiTabItem {
@@ -181,14 +213,6 @@ body {
         .forceCommunityHeadline .headlineTitle {
             color: $red;
             font-size: 24px;
-        }
-
-        //.forceCommunityTrendingTopics .forceTopicTopicList .topicListHeader {
-        .slds-col--padded .ui-widget h2 {
-            color: $orange;
-            padding: .5rem 0;
-            font-size: 1rem;
-            text-transform: initial;
         }
 
         ul.tabs__nav {

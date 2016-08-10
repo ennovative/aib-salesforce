@@ -124,6 +124,31 @@ body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper.show-r
 body .siteforceNapiliBody .slds-col--padded .ui-widget {
   margin: 36px 0 0 0;
 }
+body .siteforceNapiliBody .slds-col--padded .ui-widget h2 {
+  color: #F7901E;
+  padding: .5rem 0;
+  font-size: 1rem;
+  text-transform: initial;
+}
+body .siteforceNapiliBody .slds-col--padded .ui-widget .ctaPanel {
+  margin-top: 0;
+}
+body .siteforceNapiliBody .slds-col--padded .ui-widget .ctaPanel .cta_header {
+  display: none;
+}
+body .siteforceNapiliBody .slds-col--padded .ui-widget .ctaPanel .contact-con .cta-btn {
+  width: 100%;
+  margin: 0;
+}
+body .siteforceNapiliBody .slds-col--padded .ui-widget .ctaPanel .contact-con .cta-btn .label {
+  text-transform: none;
+}
+body .siteforceNapiliBody .slds-col--padded .ui-widget .ctaPanel .contact-con .cta-btn .forceCommunityAskCommunity {
+  background-color: #F7901E;
+}
+body .siteforceNapiliBody .slds-col--padded .ui-widget .ctaPanel .contact-con .cta-btn .communityBtn {
+  background-color: #007AC2;
+}
 body .siteforceNapiliBody .uiTabBar .uiTabItem.active a.tabHeader {
   color: #F7901E;
 }
@@ -144,12 +169,6 @@ body .siteforceNapiliBody li.uiTabItem.active {
 body .siteforceNapiliBody .forceCommunityHeadline .headlineTitle {
   color: #D23138;
   font-size: 24px;
-}
-body .siteforceNapiliBody .slds-col--padded .ui-widget h2 {
-  color: #F7901E;
-  padding: .5rem 0;
-  font-size: 1rem;
-  text-transform: initial;
 }
 body .siteforceNapiliBody ul.tabs__nav {
   border-bottom: 6px solid #bcbbb9;
