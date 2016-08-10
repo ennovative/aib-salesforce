@@ -14,4 +14,10 @@ body {
             padding: 2px;
         }
     }
+
+    @media only screen and (min-width: 48em) {
+        .forceTopicFeaturedTopicItem.topicItem {
+            height: 360px;
+        }
+    }
 }
