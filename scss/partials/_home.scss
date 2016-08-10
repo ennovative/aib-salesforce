@@ -1,0 +1,17 @@
+body {
+    .forceTopicFeaturedTopics .topicContent {
+        background-color: none;
+    }
+
+    .forceTopicFeaturedTopicItem.topicItem {
+        height: 115px;
+    }
+
+    @media only screen and (min-aspect-ratio: 4/3) and (min-width: 48em), only screen and (min-width: 64.0625em) {
+        .forceTopicFeaturedTopicItem.topicItem {
+            width: 33.33333333333333%;
+            height: 180px;
+            padding: 2px;
+        }
+    }
+}
