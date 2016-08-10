@@ -183,7 +183,8 @@ body {
             font-size: 24px;
         }
 
-        .forceCommunityTrendingTopics .forceTopicTopicList .topicListHeader {
+        //.forceCommunityTrendingTopics .forceTopicTopicList .topicListHeader {
+        .slds-col--padded .ui-widget h2 {
             color: $orange;
             padding: .5rem 0;
             font-size: 1rem;
