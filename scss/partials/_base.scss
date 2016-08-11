@@ -26,6 +26,10 @@ body {
     }
 
     .siteforceNapiliBody {
+        .selfServiceProfileMenuTrigger .profileName { 
+            text-transform: none !important;
+        }
+
         div[data-region-name="sidebar"] {
             .ui-widget:last-of-type {
                 margin-top: 0;

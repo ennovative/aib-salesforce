@@ -5,6 +5,16 @@ body {
         background-position: center top;
         background-repeat:no-repeat;
         position: relative;
+
+        .profileContent {
+            padding-top: 225px;
+            text-align: center;
+            font-weight: bold;
+
+            .name {
+                color: $orange;
+            }
+        }
     }
 
     .forceTopicFeaturedTopics .topicContent {
