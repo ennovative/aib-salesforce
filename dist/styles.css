@@ -267,6 +267,8 @@ body .profileBackground {
   background-position: center top;
   background-repeat: no-repeat;
   position: relative;
+  width: 261px;
+  margin: 0 auto;
 }
 body .profileBackground .profileContent {
   padding-top: 230px;
