@@ -269,12 +269,13 @@ body .profileBackground {
   position: relative;
 }
 body .profileBackground .profileContent {
-  padding-top: 225px;
+  padding-top: 230px;
   text-align: center;
   font-weight: bold;
 }
 body .profileBackground .profileContent .name {
   color: #F7901E;
+  font-size: 1.2rem;
 }
 body .forceTopicFeaturedTopics .topicContent {
   background-color: initial;
