@@ -227,7 +227,7 @@ body .siteforceNapiliBody ul.tabs__nav {
 }
 
 .salesforceIdentityLoginForm input {
-  width: 82%;
+  width: 82% !important;
 }
 
 .salesforceIdentityLoginForm a,
