@@ -308,10 +308,6 @@ body ul.hive li {
   line-height: 115px;
   padding: 2px;
   text-align: center;
-  margin-top: -20px;
-}
-body ul.hive li:nth-child(-n+3) {
-  margin-top: 20px;
 }
 body ul.hive img {
   max-width: 100%;
@@ -329,6 +325,10 @@ body ul.hive img {
     width: 33.33333333333333%;
     height: 180px;
     line-height: 180px;
+    margin-top: -20px;
+  }
+  body ul.hive li:nth-child(-n+3) {
+    margin-top: 20px;
   }
 }
 
