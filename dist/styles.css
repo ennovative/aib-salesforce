@@ -259,7 +259,7 @@ body .siteforceNapiliBody ul.subpages li a:hover {
 }
 
 body .profileBackground {
-  height: 261px;
+  height: 354px;
   background-image: url('../images/profile.jpg');
   background-position: center top;
   background-repeat: no-repeat;
@@ -333,8 +333,8 @@ body ul.hive img {
   height: 144px;
   margin: 0 0 0 -55px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 58px;
+  left: 52px;
 }
 .hexagon .hexagon-in1 {
   overflow: hidden;
