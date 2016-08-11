@@ -28,6 +28,16 @@ body {
         height: 115px;
     }
 
+    @media only screen and (min-width: 1024px) and (max-width: 1154px) {
+        .profileBackground {
+            width: 227.75px !important;
+
+            .hexagon.profilePicture {
+                left: 35px !important;
+            }
+        }
+    }
+
     @media only screen and (min-width: 48em) {
         .forceTopicFeaturedTopicItem.topicItem {
             height: 360px;
