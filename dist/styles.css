@@ -226,6 +226,10 @@ body .siteforceNapiliBody ul.tabs__nav {
   bottom: -50px;
 }
 
+.salesforceIdentityLoginForm input {
+  width: 82%;
+}
+
 .salesforceIdentityLoginForm a,
 .salesforceIdentityLoginBody a {
   color: #006EB3 !important;
