@@ -12,6 +12,11 @@ body {
             line-height: 115px;
             padding: 2px;
             text-align: center;
+            margin-top: -20px;
+        }
+
+        li:nth-child(-n+3) {
+            margin-top: 20px;
         }
 
         img {
