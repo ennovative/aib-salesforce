@@ -11,33 +11,38 @@
     display: block;
 
     &.profilePicture {
-        width: 285px;
-        height: 150px;
+        width: 267px;
+        height: 144px;
         margin: 0 0 0 -55px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .hexagon-in1 {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        display: block;
+        -webkit-transform: rotate(-60deg);
+           -moz-transform: rotate(-60deg);
+            -ms-transform: rotate(-60deg);
+             -o-transform: rotate(-60deg);
+                transform: rotate(-60deg);
+    }
+    .hexagon-in2 {
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: 62%;
+        visibility: visible;
+        display: block;
+        -webkit-transform: rotate(-60deg);
+           -moz-transform: rotate(-60deg);
+            -ms-transform: rotate(-60deg);
+             -o-transform: rotate(-60deg);
+                transform: rotate(-60deg);
     }
 }
-.hexagon-in1 {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    display: block;
-    -webkit-transform: rotate(-60deg);
-       -moz-transform: rotate(-60deg);
-        -ms-transform: rotate(-60deg);
-         -o-transform: rotate(-60deg);
-            transform: rotate(-60deg);
-}
-.hexagon-in2 {
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: 62%;
-    visibility: visible;
-    display: block;
-    -webkit-transform: rotate(-60deg);
-       -moz-transform: rotate(-60deg);
-        -ms-transform: rotate(-60deg);
-         -o-transform: rotate(-60deg);
-            transform: rotate(-60deg);
-}
+
