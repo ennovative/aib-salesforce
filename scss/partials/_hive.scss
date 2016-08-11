@@ -9,23 +9,21 @@ body {
             display: block;
             width: 50%;
             height: 115px;
+            line-height: 115px;
             padding: 2px;
             text-align: center;
-            margin-top: -20px;
-        }
-
-        li:nth-child(-n+3) {
-            margin-top: 20px;
         }
 
         img {
             max-width: 100%;
             max-height: 100%;
+            vertical-align: middle;
         }
 
         @media only screen and (min-width: 48em) {
             li {
                 height: 360px;
+                line-height: 360px;
             }
         }
 
@@ -33,6 +31,12 @@ body {
             li {
                 width: 33.33333333333333%;
                 height: 180px;
+                line-height: 180px;
+                margin-top: -20px;
+            }
+
+            li:nth-child(-n+3) {
+                margin-top: 20px;
             }
         }
     }
