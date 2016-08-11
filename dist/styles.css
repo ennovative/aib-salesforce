@@ -23,6 +23,9 @@ body .forceCommunityTrendingTopics.hideEl {
 body .forceCommunityHeadline .headlineIcon {
   display: none;
 }
+body .siteforceNapiliBody div[data-region-name="sidebar"] .ui-widget:last-of-type {
+  margin-top: 0;
+}
 body .siteforceNapiliBody .cProfileCon {
   margin-top: 5px;
 }

@@ -26,6 +26,12 @@ body {
     }
 
     .siteforceNapiliBody {
+        div[data-region-name="sidebar"] {
+            .ui-widget:last-of-type {
+                margin-top: 0;
+            }
+        }
+
         .cProfileCon {
             margin-top: 5px;
         }
