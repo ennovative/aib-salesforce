@@ -206,6 +206,26 @@ body .siteforceNapiliBody .forceCommunityHeadline .headlineTitle {
 body .siteforceNapiliBody ul.tabs__nav {
   border-bottom: 6px solid #bcbbb9;
 }
+body .siteforceNapiliBody ul.subpages {
+  list-style-type: none;
+  padding: 0;
+}
+body .siteforceNapiliBody ul.subpages li {
+  float: left;
+  border: 1px solid #ccc;
+  margin-right: 47px;
+  width: 6em;
+  margin-bottom: 30px;
+}
+body .siteforceNapiliBody ul.subpages li a {
+  padding: 15px;
+  display: inline-block;
+  text-align: center;
+  transition: 0.3s ease all;
+}
+body .siteforceNapiliBody ul.subpages li a:hover {
+  background-color: #ccc;
+}
 
 @media only screen and (min-width: 48em) {
   body .siteforceNapiliBody .cBrandingProfile {
