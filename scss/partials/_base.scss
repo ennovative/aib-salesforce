@@ -233,11 +233,13 @@ body {
                     }
 
                     .forceCommunityAskCommunity {
-                        background-color: $orange;
+                        background-color: $blue;
+                        font-weight: bold;
                     }
 
                     .communityBtn {
-                        background-color: $blue;
+                        background-color: $orange;
+                        font-weight: bold;
                     }
                 }
             }
@@ -305,6 +307,11 @@ body {
                 }
             }
         }
+    }
+
+    .siteforceNapiliFooter .selfServiceContactSupport .label, 
+    .siteforceNapiliFooter .forceCommunityAskCommunity .label {
+        text-transform: none !important;
     }
 }
 

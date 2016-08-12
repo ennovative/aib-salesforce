@@ -183,10 +183,12 @@ body .siteforceNapiliBody .slds-col--padded .ui-widget .ctaPanel .contact-con .c
   border-radius: 0;
 }
 body .siteforceNapiliBody .slds-col--padded .ui-widget .ctaPanel .contact-con .cta-btn .forceCommunityAskCommunity {
-  background-color: #F7901E;
+  background-color: #007AC2;
+  font-weight: bold;
 }
 body .siteforceNapiliBody .slds-col--padded .ui-widget .ctaPanel .contact-con .cta-btn .communityBtn {
-  background-color: #007AC2;
+  background-color: #F7901E;
+  font-weight: bold;
 }
 body .siteforceNapiliBody .uiTabBar .uiTabItem.active a.tabHeader {
   color: #F7901E;
@@ -234,6 +236,10 @@ body .siteforceNapiliBody ul.subpages li a {
 }
 body .siteforceNapiliBody ul.subpages li a:hover {
   background-color: #ccc;
+}
+body .siteforceNapiliFooter .selfServiceContactSupport .label,
+body .siteforceNapiliFooter .forceCommunityAskCommunity .label {
+  text-transform: none !important;
 }
 
 @media only screen and (min-width: 48em) {
