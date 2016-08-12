@@ -23,6 +23,12 @@ body .forceCommunityTrendingTopics.hideEl {
 body .forceCommunityHeadline .headlineIcon {
   display: none;
 }
+body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:hover,
+body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:focus,
+body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:active {
+  color: #3D3834 !important;
+  box-shadow: none !important;
+}
 body .siteforceNapiliBody .selfServiceProfileMenuTrigger .profileName {
   text-transform: none !important;
 }
