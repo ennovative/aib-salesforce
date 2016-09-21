@@ -26,8 +26,6 @@ body {
     }
 
     .siteforceNapiliBody {
-        background: image-url('aib-footer.jpg') no-repeat bottom;
-
         .selfServiceProfileMenuTrigger {
             .trigger-link:hover,
             .trigger-link:focus,
@@ -92,9 +90,8 @@ body {
         }
 
         .cFooterPanel {
+            background: image-url('aib-footer.jpg') no-repeat center;
             height: 300px;
-            max-width: 1140px;
-            margin: 0 auto;
             position: relative;
             color: $white;
 
