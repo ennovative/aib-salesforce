@@ -295,14 +295,6 @@ body .forceTopicFeaturedTopics .topicContent {
 body .forceTopicFeaturedTopicItem.topicItem {
   height: 115px;
 }
-@media only screen and (min-width: 1024px) and (max-width: 1154px) {
-  body .profileBackground {
-    width: 227.75px !important;
-  }
-  body .profileBackground .hexagon.profilePicture {
-    left: 35px !important;
-  }
-}
 @media only screen and (min-width: 48em) {
   body .forceTopicFeaturedTopicItem.topicItem {
     height: 360px;
