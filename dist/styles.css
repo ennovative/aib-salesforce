@@ -191,24 +191,20 @@ body .siteforceNapiliBody .slds-col--padded .ui-widget .ctaPanel .contact-con .c
   font-weight: bold;
 }
 body .siteforceNapiliBody .uiTabBar .uiTabItem.active a.tabHeader {
-  color: #F7901E;
+  color: #F7901E !important;
+  border-color: #F7901E !important;
 }
 body .siteforceNapiliBody .uiTabBar .uiTabItem a.tabHeader {
   color: #3D3834;
 }
 body .siteforceNapiliBody .uiTabBar .uiTabItem a.tabHeader:hover {
-  color: #F7901E;
+  color: #F7901E !important;
 }
 body .siteforceNapiliBody .tabs__content .ui-widget:first-of-type {
   margin-top: 0 !important;
 }
 body .siteforceNapiliBody .tabs__content .forceTopicFeaturedTopics .topicLabel {
   display: none;
-}
-body .siteforceNapiliBody li.uiTabItem.active {
-  border-bottom: 6px solid #F7901E;
-  margin-bottom: -6px;
-  padding-bottom: 2px;
 }
 body .siteforceNapiliBody .forceCommunityHeadline .headlineTitle {
   color: #D23138;
@@ -247,7 +243,7 @@ body .siteforceNapiliFooter .forceCommunityAskCommunity .label {
     width: 35%;
   }
   body .siteforceNapiliBody .cSearchPublisher {
-    width: 40%;
+    width: 40% !important;
   }
   body .siteforceNapiliBody .cProfileCon {
     width: 25%;

@@ -247,14 +247,15 @@ body {
 
         .uiTabBar .uiTabItem {
             &.active a.tabHeader {
-                color: $orange;
+                color: $orange !important;
+                border-color: $orange !important;
             }
 
             a.tabHeader {
                 color: $darkGray;
 
                 &:hover {
-                    color: $orange;
+                    color: $orange !important;
                 }
             }
         }
@@ -267,12 +268,6 @@ body {
             .forceTopicFeaturedTopics .topicLabel {
                 display: none;
             }
-        }
-
-        li.uiTabItem.active {
-                border-bottom: 6px solid $orange;
-                margin-bottom: -6px;
-                padding-bottom: 2px;
         }
 
         .forceCommunityHeadline .headlineTitle {
@@ -323,7 +318,7 @@ body {
             }
 
             .cSearchPublisher {
-                width: 40%;
+                width: 40% !important;
             }
 
             .cProfileCon {
