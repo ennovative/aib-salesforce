@@ -23,6 +23,9 @@ body .forceCommunityTrendingTopics.hideEl {
 body .forceCommunityHeadline .headlineIcon {
   display: none;
 }
+body .siteforceNapiliBody {
+  background: url('../images/aib-footer.jpg') no-repeat bottom;
+}
 body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:hover,
 body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:focus,
 body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:active {
@@ -66,8 +69,7 @@ body .siteforceNapiliBody .forceCommunityReputationLeaderboard .listContent .for
   background-color: transparent;
 }
 body .siteforceNapiliBody .cFooterPanel {
-  background: url('../images/aib-footer.jpg') no-repeat center;
-  height: 265px;
+  height: 300px;
   max-width: 1140px;
   margin: 0 auto;
   position: relative;
