@@ -272,12 +272,12 @@ body .siteforceNapiliFooter .forceCommunityAskCommunity .label {
 }
 
 body .profileBackground {
-  height: 100%;
+  height: 354px;
   background-image: url('../images/profile.jpg');
   background-position: center top;
   background-repeat: no-repeat;
   position: relative;
-  width: 261px;
+  width: 100%;
   margin: 0 auto;
 }
 body .profileBackground .profileContent {
