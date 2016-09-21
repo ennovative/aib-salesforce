@@ -144,8 +144,7 @@ body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .searc
 body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .search-field {
   height: 40px;
   border-radius: 21px;
-  background-color: #efcacc;
-  border-color: #efcacc;
+  background: #fff;
 }
 body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .search-field:focus {
   box-shadow: none !important;

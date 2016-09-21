@@ -181,8 +181,8 @@ body {
                 .search-field {
                     height: 40px;
                     border-radius: 21px;
-                    background-color: $musk;
-                    border-color: $musk;
+                    background: #fff;
+
                     &:focus {
                         box-shadow: none !important;
                     }
