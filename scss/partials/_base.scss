@@ -95,6 +95,24 @@ body {
             position: relative;
             color: $white;
 
+            .footer-spot {
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                background: image-url('footer-spot.png') no-repeat center;
+                width: 385px;
+                height: 216px;
+            }
+
+            .footer-hex {
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                background: image-url('footer-hex.png') no-repeat center;
+                width: 402px;
+                height: 300px;
+            }
+
             .forceCommunityRichText {
                 padding-top: 10px;
             }

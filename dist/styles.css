@@ -71,6 +71,22 @@ body .siteforceNapiliBody .cFooterPanel {
   position: relative;
   color: #fff;
 }
+body .siteforceNapiliBody .cFooterPanel .footer-spot {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: url('../images/footer-spot.png') no-repeat center;
+  width: 385px;
+  height: 216px;
+}
+body .siteforceNapiliBody .cFooterPanel .footer-hex {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: url('../images/footer-hex.png') no-repeat center;
+  width: 402px;
+  height: 300px;
+}
 body .siteforceNapiliBody .cFooterPanel .forceCommunityRichText {
   padding-top: 10px;
 }
