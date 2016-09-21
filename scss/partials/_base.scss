@@ -95,10 +95,16 @@ body {
             position: relative;
             color: $white;
 
+            .footer-content, .ctaPanel {
+                position: relative;
+                z-index: 10;
+            }
+
             .footer-spot {
                 position: absolute;
                 bottom: 0px;
                 left: 0px;
+                z-index: 0;
                 background: image-url('footer-spot.png') no-repeat center;
                 width: 385px;
                 height: 216px;
@@ -108,6 +114,7 @@ body {
                 position: absolute;
                 top: 0px;
                 right: 0px;
+                z-index: 0;
                 background: image-url('footer-hex.png') no-repeat center;
                 width: 402px;
                 height: 300px;
