@@ -124,7 +124,10 @@ body {
             transform:translateY(0%) translatez(-1px) rotate(-90deg);
 
         &.twolines {
-            margin-bottom: -2%;
+            bottom: 28%;
+        }
+        &.threelines {
+            bottom: 22%;
         }
 }
 
@@ -160,4 +163,40 @@ body {
 .hex:nth-child(3n+4),
 .hex:nth-child(3n+5) {
     margin-top: -9%;
+}
+
+@media (max-width: 999px) {
+    .hex span {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 890px) {
+    .hex span {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 767px) {
+    .hex span {
+        font-size: 1em;
+
+        &.twolines {
+            bottom: 38%;
+        }
+        &.threelines {
+            bottom: 29%;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .hex span {
+        &.twolines {
+            bottom: 28%;
+        }
+        &.threelines {
+            bottom: 20%;
+        }
+    }
 }

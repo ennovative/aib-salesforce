@@ -456,7 +456,10 @@ body {
   transform: translateY(0%) translatez(-1px) rotate(-90deg);
 }
 .hex span.twolines {
-  margin-bottom: -2%;
+  bottom: 28%;
+}
+.hex span.threelines {
+  bottom: 22%;
 }
 
 /*@media (max-width: 600px) {  <- 2-1  hexagons per row */
@@ -501,6 +504,35 @@ body {
   margin-top: -9%;
 }
 
+@media (max-width: 999px) {
+  .hex span {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 890px) {
+  .hex span {
+    font-size: 1.1em;
+  }
+}
+@media (max-width: 767px) {
+  .hex span {
+    font-size: 1em;
+  }
+  .hex span.twolines {
+    bottom: 38%;
+  }
+  .hex span.threelines {
+    bottom: 29%;
+  }
+}
+@media (max-width: 450px) {
+  .hex span.twolines {
+    bottom: 28%;
+  }
+  .hex span.threelines {
+    bottom: 20%;
+  }
+}
 .hexagon {
   overflow: hidden;
   visibility: hidden;
