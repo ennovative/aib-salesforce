@@ -384,6 +384,7 @@ body {
   padding: 0.866% 0;
   font-size: 15px;
   margin-left: 1%;
+  padding-left: 10px !important;
 }
 
 .hexGrid:after {
@@ -423,6 +424,9 @@ body {
   -ms-transform: skewY(-30deg) rotate(60deg);
   transform: skewY(-30deg) rotate(60deg);
 }
+.hexIn:active, .hexIn:focus, .hexIn:hover {
+  color: #fff;
+}
 
 /*** HEX CONTENT **********************************************************************/
 .hex img {
@@ -430,6 +434,7 @@ body {
   right: -100%;
   width: auto;
   height: 100%;
+  max-width: none;
   margin: 0 auto;
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
@@ -444,14 +449,14 @@ body {
   bottom: 35%;
   font-size: 1.3em;
   display: block;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
   z-index: 1;
   -webkit-transform: translateY(0%) translatez(-1px) rotate(-90deg);
   -ms-transform: translateY(0%) translatez(-1px) rotate(-90deg);
   transform: translateY(0%) translatez(-1px) rotate(-90deg);
 }
 .hex span.twolines {
-  margin-bottom: 1%;
+  margin-bottom: -2%;
 }
 
 /*@media (max-width: 600px) {  <- 2-1  hexagons per row */
