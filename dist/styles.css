@@ -378,7 +378,7 @@ body {
     }
 }
 */
-#hexGrid {
+.hexGrid {
   /*overflow: hidden;*/
   width: 90%;
   padding: 0.866% 0;
@@ -386,7 +386,7 @@ body {
   margin-left: 1%;
 }
 
-#hexGrid:after {
+.hexGrid:after {
   content: "";
   display: block;
   clear: both;
