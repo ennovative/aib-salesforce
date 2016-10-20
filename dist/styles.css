@@ -274,7 +274,7 @@ body .siteforceNapiliFooter .forceCommunityAskCommunity .label {
     width: 25%;
   }
   body .siteforceNapiliBody .cHeaderLine {
-    padding: 55px 14px 152px 14px !important;
+    padding: 55px 14px 135px 14px !important;
   }
 }
 .salesforceIdentityLoginBody button.sfdc_button.uiButton .label {
@@ -620,6 +620,7 @@ body .contact-con .cta-btn:nth-child(2) {
 }
 
 .forceCommunityNavigationMenu .navigationMenu {
+  line-height: 0.7;
   /*--- DROPDOWN ---*/
 }
 .forceCommunityNavigationMenu .navigationMenu li {
