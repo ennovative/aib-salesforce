@@ -5,6 +5,10 @@
 }
 
 body {
+    .clearfix { 
+        clear:both; 
+    }
+
     .forceCommunityNavigationMenu {
         background: #3f3935;
 
