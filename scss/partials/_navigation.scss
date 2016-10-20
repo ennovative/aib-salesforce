@@ -29,10 +29,11 @@
             list-style: none;
             position: absolute;
             left: -9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
-            padding: 0;
+            padding: 4px;
             li {
                 padding-top: 1px; /* Introducing a padding between the li and the a give the illusion spaced items */
                 float: none;
+                margin-right: 0;
             }
 
             a {

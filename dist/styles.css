@@ -647,12 +647,13 @@ body .contact-con .cta-btn:nth-child(2) {
   position: absolute;
   left: -9999px;
   /* Hide off-screen when not needed (this is more accessible than display:none;) */
-  padding: 0;
+  padding: 4px;
 }
 .forceCommunityNavigationMenu .navigationMenu ul li {
   padding-top: 1px;
   /* Introducing a padding between the li and the a give the illusion spaced items */
   float: none;
+  margin-right: 0;
 }
 .forceCommunityNavigationMenu .navigationMenu ul a {
   white-space: nowrap;
