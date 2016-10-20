@@ -25,6 +25,12 @@ body {
         display: none;
     }
 
+    .cHeaderPanel {
+        .cNavBarCon {
+            display: none !important;
+        }
+    }
+
     .siteforceNapiliBody {
         .selfServiceProfileMenuTrigger {
             .trigger-link:hover,

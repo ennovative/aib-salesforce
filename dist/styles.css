@@ -23,6 +23,9 @@ body .forceCommunityTrendingTopics.hideEl {
 body .forceCommunityHeadline .headlineIcon {
   display: none;
 }
+body .cHeaderPanel .cNavBarCon {
+  display: none !important;
+}
 body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:hover,
 body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:focus,
 body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:active {
