@@ -647,6 +647,7 @@ body .contact-con .cta-btn:nth-child(2) {
   position: absolute;
   left: -9999px;
   /* Hide off-screen when not needed (this is more accessible than display:none;) */
+  padding: 0;
 }
 .forceCommunityNavigationMenu .navigationMenu ul li {
   padding-top: 1px;
