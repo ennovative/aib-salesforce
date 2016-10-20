@@ -621,6 +621,8 @@ body .contact-con .cta-btn:nth-child(2) {
 
 .forceCommunityNavigationMenu .navigationMenu {
   line-height: 0.7;
+  z-index: 100;
+  position: relative;
   /*--- DROPDOWN ---*/
 }
 .forceCommunityNavigationMenu .navigationMenu * {
@@ -637,8 +639,7 @@ body .contact-con .cta-btn:nth-child(2) {
   text-decoration: none;
 }
 .forceCommunityNavigationMenu .navigationMenu li a:hover {
-  color: #fff;
-  text-decoration: underline;
+  color: #a00000 !important;
 }
 .forceCommunityNavigationMenu .navigationMenu ul {
   background: #3f3935;
@@ -665,5 +666,5 @@ body .contact-con .cta-btn:nth-child(2) {
   text-decoration: none;
 }
 .forceCommunityNavigationMenu .navigationMenu li:hover ul a:hover {
-  background: #333;
+  background: #fff;
 }
