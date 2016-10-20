@@ -623,13 +623,16 @@ body .contact-con .cta-btn:nth-child(2) {
   line-height: 0.7;
   /*--- DROPDOWN ---*/
 }
+.forceCommunityNavigationMenu .navigationMenu * {
+  line-height: normal;
+}
 .forceCommunityNavigationMenu .navigationMenu li {
   margin-right: 10px;
   position: relative;
 }
 .forceCommunityNavigationMenu .navigationMenu li a {
   display: block;
-  padding: 5px;
+  padding: 9px 6px 7px;
   color: #fff;
   background: #333;
   text-decoration: none;
@@ -640,10 +643,7 @@ body .contact-con .cta-btn:nth-child(2) {
   text-decoration: underline;
 }
 .forceCommunityNavigationMenu .navigationMenu ul {
-  background: #fff;
-  /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
-  background: rgba(255, 255, 255, 0);
-  /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+  background: #3f3935;
   list-style: none;
   position: absolute;
   left: -9999px;
@@ -658,10 +658,6 @@ body .contact-con .cta-btn:nth-child(2) {
 .forceCommunityNavigationMenu .navigationMenu ul a {
   white-space: nowrap;
   /* Stop text wrapping and creating multi-line dropdown items */
-}
-.forceCommunityNavigationMenu .navigationMenu li:hover a {
-  background: #6b0c36;
-  text-decoration: underline;
 }
 .forceCommunityNavigationMenu .navigationMenu li:hover ul {
   left: 0;
