@@ -669,3 +669,7 @@ body .contact-con .cta-btn:nth-child(2) {
 .forceCommunityNavigationMenu .navigationMenu li:hover ul a:hover {
   background: #fff;
 }
+.forceCommunityNavigationMenu .homeButton.menuItemLink:hover,
+.forceCommunityNavigationMenu .homeButton.menuItemLink:focus {
+  color: #ffffff !important;
+}
