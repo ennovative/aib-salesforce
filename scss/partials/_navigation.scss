@@ -1,4 +1,10 @@
 .forceCommunityNavigationMenu {
+
+    .homeButton.menuItemLink:hover, 
+    .homeButton.menuItemLink:focus {
+        color: #ffffff !important;
+    }
+
     .navigationMenu {
         line-height: 0.7;
         z-index: 100;
