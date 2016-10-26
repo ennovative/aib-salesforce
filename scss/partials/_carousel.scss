@@ -1,0 +1,27 @@
+.slidesjs-navigation {
+    &.slidesjs-previous,
+    &.slidesjs-next {
+        display: none;
+    }
+}
+
+.slidesjs-pagination {
+    .slidesjs-pagination-item {
+        float: left;
+
+        a {
+            text-decoration: none;
+            text-indent: -9999px;
+            background-color: #bab5b2;
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            overflow: hidden;
+            border-radius: 50%;
+
+            &.active {
+                background-color: #6f6764;
+            }
+        }
+    }
+}

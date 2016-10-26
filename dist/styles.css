@@ -676,3 +676,24 @@ body .contact-con .cta-btn:nth-child(2) {
 .forceCommunityNavigationMenu .homeButton.menuItemLink:focus {
   color: #ffffff !important;
 }
+
+.slidesjs-navigation.slidesjs-previous, .slidesjs-navigation.slidesjs-next {
+  display: none;
+}
+
+.slidesjs-pagination .slidesjs-pagination-item {
+  float: left;
+}
+.slidesjs-pagination .slidesjs-pagination-item a {
+  text-decoration: none;
+  text-indent: -9999px;
+  background-color: #bab5b2;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.slidesjs-pagination .slidesjs-pagination-item a.active {
+  background-color: #6f6764;
+}
