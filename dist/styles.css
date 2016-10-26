@@ -8,6 +8,9 @@
   text-transform: none;
 }
 
+body .hidden {
+  display: none;
+}
 body .clearfix {
   clear: both;
 }
