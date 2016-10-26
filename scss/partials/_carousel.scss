@@ -6,8 +6,11 @@
 }
 
 .slidesjs-pagination {
+    text-align: center;
+
     .slidesjs-pagination-item {
-        float: left;
+        display:inline-block;
+        padding: 10px 5px;
 
         a {
             text-decoration: none;
