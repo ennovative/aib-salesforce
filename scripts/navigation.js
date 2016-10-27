@@ -12,8 +12,14 @@
 document.addEventListener("DOMContentLoaded", function () {
     var navigationToggleEl = document.getElementById("navigationToggle");
     if (navigationToggleEl) {
-        navigationToggleEl.addEventListener("click", function () {
-            toggleNavigation();
-        });
+        setTimeout(function() {
+
+            navigationToggleEl.addEventListener("click", function () {
+                toggleNavigation();
+            });
+
+        },
+        1000);
+        
     }
 });
