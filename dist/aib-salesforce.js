@@ -6,7 +6,7 @@ function toggleNavigation() {
     var menuWrapperEl = document.querySelector(".customCommunityNavigationMenu .navigationMenuWrapper");
 
     if (menuWrapperEl.className.indexOf(showClass) > -1) {
-        menuWrapperEl.className.replace(showClass, "");
+        menuWrapperEl.className = menuWrapperEl.className.replace(showClass, "");
     } else {
         menuWrapperEl.className += showClass;
     }
@@ -15,14 +15,10 @@ function toggleNavigation() {
 document.addEventListener("DOMContentLoaded", function () {
     var navigationToggleEl = document.getElementById("navigationToggle");
     if (navigationToggleEl) {
-        setTimeout(function() {
 
-            navigationToggleEl.addEventListener("click", function () {
-                toggleNavigation();
-            });
-
-        },
-        1000);
+        navigationToggleEl.addEventListener("click", function () {
+            toggleNavigation();
+        });
         
     }
 });
