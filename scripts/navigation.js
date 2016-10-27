@@ -9,7 +9,7 @@
     }
 }
 
-document.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("DOMContentLoaded", function () {
     var navigationToggleEl = document.getElementById("navigationToggle");
     console.log(navigationToggleEl);
     if (navigationToggleEl) {
