@@ -61,3 +61,20 @@
         color: #ffffff !important;
     }
 }
+
+@media only screen and (max-width: 47.9375em) {
+    .forceCommunityNavigationMenu {
+        .navigationMenu {
+            li {
+                a {
+                    color: #222;
+                }
+            }
+
+            ul {
+                position: initial;
+                background: #fff;
+            }
+        }
+    }
+}

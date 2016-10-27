@@ -1,4 +1,4 @@
-/*! aib-salesforce - v1.0.0 - 2016-10-27
+/*! aib-salesforce - v1.0.0 - 2016-10-28
 * https://github.com/ennovative/aib-salesforce#readme
 * Copyright (c) 2016 ; Licensed  */
 function toggleNavigation() {
@@ -12,23 +12,24 @@ function toggleNavigation() {
     }
 }
 
-window.onload = function() {
-    var navigationToggleEl = document.getElementById("navigationToggle");
-    var menuCurtainEl = document.querySelector(".customCommunityNavigationMenu .navigationMenuWrapperCurtain a");
+window.onload = function () {
+    setTimeout(function() {
+        var navigationToggleEl = document.getElementById("navigationToggle");
+        var menuCurtainEl = document.querySelector(".customCommunityNavigationMenu .navigationMenuWrapperCurtain a");
 
-    console.log(navigationToggleEl);
-    if (navigationToggleEl != null) {
-        navigationToggleEl.addEventListener("click",
-            function() {
-                toggleNavigation();
-            });
-    }
+        if (navigationToggleEl != null) {
+            navigationToggleEl.addEventListener("click",
+                function () {
+                    toggleNavigation();
+                });
+        }
 
-    console.log(menuCurtainEl);
-    if (menuCurtainEl != null) {
-        menuCurtainEl.addEventListener("click",
-            function() {
-                toggleNavigation();
-            });
-    }
+        if (menuCurtainEl != null) {
+            menuCurtainEl.addEventListener("click",
+                function () {
+                    toggleNavigation();
+                });
+        }
+    },
+    1000);
 };

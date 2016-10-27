@@ -677,6 +677,15 @@ body .contact-con .cta-btn:nth-child(2) {
   color: #ffffff !important;
 }
 
+@media only screen and (max-width: 47.9375em) {
+  .forceCommunityNavigationMenu .navigationMenu li a {
+    color: #222;
+  }
+  .forceCommunityNavigationMenu .navigationMenu ul {
+    position: initial;
+    background: #fff;
+  }
+}
 .slidesjs-navigation.slidesjs-previous, .slidesjs-navigation.slidesjs-next {
   display: none;
 }

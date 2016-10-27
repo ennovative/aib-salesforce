@@ -9,23 +9,24 @@
     }
 }
 
-window.onload = function() {
-    var navigationToggleEl = document.getElementById("navigationToggle");
-    var menuCurtainEl = document.querySelector(".customCommunityNavigationMenu .navigationMenuWrapperCurtain a");
+window.onload = function () {
+    setTimeout(function() {
+        var navigationToggleEl = document.getElementById("navigationToggle");
+        var menuCurtainEl = document.querySelector(".customCommunityNavigationMenu .navigationMenuWrapperCurtain a");
 
-    console.log(navigationToggleEl);
-    if (navigationToggleEl != null) {
-        navigationToggleEl.addEventListener("click",
-            function() {
-                toggleNavigation();
-            });
-    }
+        if (navigationToggleEl != null) {
+            navigationToggleEl.addEventListener("click",
+                function () {
+                    toggleNavigation();
+                });
+        }
 
-    console.log(menuCurtainEl);
-    if (menuCurtainEl != null) {
-        menuCurtainEl.addEventListener("click",
-            function() {
-                toggleNavigation();
-            });
-    }
+        if (menuCurtainEl != null) {
+            menuCurtainEl.addEventListener("click",
+                function () {
+                    toggleNavigation();
+                });
+        }
+    },
+    1000);
 };
