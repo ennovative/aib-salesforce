@@ -685,6 +685,9 @@ body .contact-con .cta-btn:nth-child(2) {
     position: initial;
     background: #fff;
   }
+  .forceCommunityNavigationMenu .navigationMenu ul a {
+    white-space: normal;
+  }
 }
 .slidesjs-navigation.slidesjs-previous, .slidesjs-navigation.slidesjs-next {
   display: none;
