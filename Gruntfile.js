@@ -19,7 +19,7 @@ module.exports = function (grunt) {
                 stripBanners: true
             },
             dist: {
-                src: ['scripts/aib-salesforce.js'],
+                src: ['scripts/*.js'],
                 dest: 'dist/aib-salesforce.js'
             }
         },

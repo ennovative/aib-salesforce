@@ -1,7 +1,4 @@
-/*! aib-salesforce - v1.0.0 - 2016-10-27
-* https://github.com/ennovative/aib-salesforce#readme
-* Copyright (c) 2016 ; Licensed  */
-function toggleNavigation() {
+﻿function toggleNavigation() {
     var showClass = " showElement";
     var menuWrapperEl = document.querySelector(".customCommunityNavigationMenu .navigationMenuWrapper");
 
