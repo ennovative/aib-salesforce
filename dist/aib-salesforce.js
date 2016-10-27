@@ -14,11 +14,10 @@ function toggleNavigation() {
 
 document.addEventListener("DOMContentLoaded", function () {
     var navigationToggleEl = document.getElementById("navigationToggle");
+    console.log(navigationToggleEl);
     if (navigationToggleEl) {
-
         navigationToggleEl.addEventListener("click", function () {
             toggleNavigation();
         });
-        
     }
 });
