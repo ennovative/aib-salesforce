@@ -10,15 +10,18 @@
 }
 
 window.addEventListener("DOMContentLoaded", function () {
-    var navigationToggleEl = document.getElementById("navigationToggle");
-
-    setTimeout(function() {
-
-        
-        console.log(navigationToggleEl);
+    setTimeout(function () {
+        var navigationToggleEl = document.getElementById("navigationToggle");
+        var menuCurtainEl = document.querySelector(".customCommunityNavigationMenu .navigationMenuWrapperCurtain a");
 
         if (navigationToggleEl != null) {
             navigationToggleEl.addEventListener("click", function () {
+                toggleNavigation();
+            });
+        }
+
+        if (menuCurtainEl != null) {
+            menuCurtainEl.addEventListener("click", function() {
                 toggleNavigation();
             });
         }
