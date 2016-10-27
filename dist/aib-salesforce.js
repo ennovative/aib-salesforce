@@ -14,8 +14,9 @@ function toggleNavigation() {
 
 document.addEventListener("DOMContentLoaded", function () {
     var navigationToggleEl = document.getElementById("navigationToggle");
-
-    navigationToggleEl.addEventListener("click", function () {
-        toggleNavigation();
-    });
+    if (navigationToggleEl) {
+        navigationToggleEl.addEventListener("click", function () {
+            toggleNavigation();
+        });
+    }
 });
