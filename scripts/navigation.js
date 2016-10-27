@@ -11,10 +11,17 @@
 
 window.addEventListener("DOMContentLoaded", function () {
     var navigationToggleEl = document.getElementById("navigationToggle");
-    console.log(navigationToggleEl);
-    if (navigationToggleEl) {
-        navigationToggleEl.addEventListener("click", function () {
-            toggleNavigation();
-        });
-    }
+
+    setTimeout(function() {
+
+        
+        console.log(navigationToggleEl);
+
+        if (navigationToggleEl != null) {
+            navigationToggleEl.addEventListener("click", function () {
+                toggleNavigation();
+            });
+        }
+    },
+    5000);
 });
