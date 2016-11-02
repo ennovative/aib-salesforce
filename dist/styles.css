@@ -32,11 +32,11 @@ body .forceCommunityHeadline .headlineIcon {
 body .cHeaderPanel .cNavBarCon {
   display: none !important;
 }
-body .siteforceNapiliStyle.blur .cCenterPanel,
-body .siteforceNapiliStyle.blur .no-assigned-image,
-body .siteforceNapiliStyle.blur .forceCommunityNavigationMenu,
-body .siteforceNapiliStyle.blur .cBrandingProfile,
-body .siteforceNapiliStyle.blur .cProfileCon {
+body.siteforceNapiliStyle.blur .cCenterPanel,
+body.siteforceNapiliStyle.blur .no-assigned-image,
+body.siteforceNapiliStyle.blur .forceCommunityNavigationMenu,
+body.siteforceNapiliStyle.blur .cBrandingProfile,
+body.siteforceNapiliStyle.blur .cProfileCon {
   opacity: 1 !important;
 }
 body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:hover,
