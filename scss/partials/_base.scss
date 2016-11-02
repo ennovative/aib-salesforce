@@ -39,6 +39,18 @@ body {
         }
     }
 
+    .siteforceNapiliStyle {
+        &.blur {
+            .cCenterPanel,
+            .no-assigned-image,
+            .forceCommunityNavigationMenu,
+            .cBrandingProfile,
+            .cProfileCon {
+                opacity: 1 !important;
+            }
+        }
+    }
+
     .siteforceNapiliBody {
         .selfServiceProfileMenuTrigger {
             .trigger-link:hover,
@@ -195,6 +207,7 @@ body {
                 }
 
                 .result-container {
+                    display: none;
                     z-index: 1;
                     margin-top: -25px;
                     padding-top: 28px;

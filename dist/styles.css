@@ -32,6 +32,13 @@ body .forceCommunityHeadline .headlineIcon {
 body .cHeaderPanel .cNavBarCon {
   display: none !important;
 }
+body .siteforceNapiliStyle.blur .cCenterPanel,
+body .siteforceNapiliStyle.blur .no-assigned-image,
+body .siteforceNapiliStyle.blur .forceCommunityNavigationMenu,
+body .siteforceNapiliStyle.blur .cBrandingProfile,
+body .siteforceNapiliStyle.blur .cProfileCon {
+  opacity: 1 !important;
+}
 body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:hover,
 body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:focus,
 body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:active {
@@ -148,6 +155,7 @@ body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .searc
   z-index: 2;
 }
 body .siteforceNapiliBody .forceCommunityOmniBox.selfServiceSearchWrapper .result-container {
+  display: none;
   z-index: 1;
   margin-top: -25px;
   padding-top: 28px;
