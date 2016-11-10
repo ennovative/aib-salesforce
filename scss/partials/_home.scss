@@ -20,6 +20,12 @@ body {
         }
     }
 
+    .forceCommunityRichText ul li,
+    .forceCommunityRichText ol li {
+        list-style-position: outside;
+        padding-left: 1em;
+    }
+
     .forceTopicFeaturedTopics .topicContent {
         background-color: initial;
     }

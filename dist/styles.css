@@ -326,6 +326,11 @@ body .profileBackground .profileContent .name {
   color: #F7901E;
   font-size: 1.2rem;
 }
+body .forceCommunityRichText ul li,
+body .forceCommunityRichText ol li {
+  list-style-position: outside;
+  padding-left: 1em;
+}
 body .forceTopicFeaturedTopics .topicContent {
   background-color: initial;
 }
