@@ -488,6 +488,7 @@ body {
 .hex {
   width: 35%;
   padding-bottom: 40.5%;
+  padding-left: 0 !important;
 }
 
 .hex:nth-child(1),

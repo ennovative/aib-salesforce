@@ -135,6 +135,7 @@ body {
 .hex {
     width: 35%; 
     padding-bottom: 40.5%;
+    padding-left: 0 !important;
 }
 .hex:nth-child(1),
 .hex:nth-child(2) { /* reduce height spacing of top two empty hexagons */
