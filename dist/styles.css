@@ -646,6 +646,7 @@ body .contact-con .cta-btn:nth-child(2) {
 }
 .forceCommunityNavigationMenu .navigationMenu li {
   margin-right: 10px;
+  padding: 0;
   position: relative;
 }
 .forceCommunityNavigationMenu .navigationMenu li a {
