@@ -360,6 +360,39 @@ body {
     }
 }
 
+/* Breadcrumb */
+li.slds-breadcrumb__item {
+    text-transform:none !important;
+    padding: 0 0.5rem;
+}
+
+.slds-breadcrumb .slds-list__item:first-child, 
+.slds-breadcrumb__item:first-child {
+    padding-left: 0 !important;
+}
+
+.slds-breadcrumb .slds-list__item>a, 
+.slds-breadcrumb__item>a {
+    padding: 0 !important;
+}
+
+
+/* Requested by Theresa 18/11/16 */
+h1 {
+    font-size: 1.6em !important;
+}
+h2 {
+    font-size: 1.3em !important;
+    font-weight: 600;
+}
+@media only screen and (min-aspect-ratio: 4/3) and (min-width: 48em), only screen and (min-width: 64.0625em) {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
+/*************/
+
+
 @media only screen and (min-width: 48em) {
     body {
         .siteforceNapiliBody {
