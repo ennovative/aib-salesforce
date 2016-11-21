@@ -42,7 +42,7 @@ body.siteforceNapiliStyle.blur .cProfileCon {
 body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:hover,
 body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:focus,
 body .siteforceNapiliBody .selfServiceProfileMenuTrigger .trigger-link:active {
-  color: #3D3834 !important;
+  color: #F7901E !important;
   box-shadow: none !important;
 }
 body .siteforceNapiliBody .selfServiceProfileMenuTrigger .profileName {
@@ -319,6 +319,11 @@ h2 {
   }
   body .siteforceNapiliBody .cHeaderLine {
     padding: 55px 14px 135px 14px !important;
+  }
+}
+@media only screen and (min-width: 120em) {
+  body .siteforceNapiliBody .cFooterPanel {
+    background-size: cover;
   }
 }
 .salesforceIdentityLoginBody button.sfdc_button.uiButton .label {

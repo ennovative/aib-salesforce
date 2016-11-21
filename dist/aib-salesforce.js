@@ -1,4 +1,4 @@
-/*! aib-salesforce - v1.0.0 - 2016-11-18
+/*! aib-salesforce - v1.0.0 - 2016-11-21
 * https://github.com/ennovative/aib-salesforce#readme
 * Copyright (c) 2016 ; Licensed  */
 function toggleNavigation() {

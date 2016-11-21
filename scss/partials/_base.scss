@@ -56,7 +56,7 @@ body {
             .trigger-link:hover,
             .trigger-link:focus,
             .trigger-link:active {
-                color: $darkGray !important;
+                color: $orange !important;
                 box-shadow: none !important;
             }
 
@@ -413,4 +413,10 @@ h2 {
             }
         }
     }
+}
+
+@media only screen and (min-width: 120em) {
+  body .siteforceNapiliBody .cFooterPanel {
+    background-size: cover;
+  }
 }
