@@ -124,6 +124,7 @@ body {
             .footer-content, .ctaPanel {
                 position: relative;
                 z-index: 10;
+                margin-top: 0;
             }
 
             .footer-spot {
@@ -156,8 +157,16 @@ body {
 
                 .uiButton {
                     background: transparent;
-                    border: 2px solid $white;
+                    border: 2px solid #fff;
                     width: 220px;
+                    border-radius: 2px;
+                    padding: 15px 0;
+                    font-weight: 700;
+                    color: #ffffff;
+                    font-size: 1em;
+                    -webkit-transition: background .8s ease;
+                    transition: background .8s ease;
+                    text-decoration: none;
 
                     &:hover {
                         background: rgba(0, 0, 0, 0.3) !important;
@@ -412,6 +421,12 @@ h2 {
                 padding: 55px 14px 135px 14px !important;
             }
         }
+    }
+}
+
+@media only screen and (min-aspect-ratio: 4/3) and (min-width: 48em), only screen and (min-width: 64.0625em) {
+    body .siteforceNapiliBody .cFooterPanel {
+        margin-top: 120px;
     }
 }
 

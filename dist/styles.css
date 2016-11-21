@@ -90,6 +90,7 @@ body .siteforceNapiliBody .cFooterPanel {
 body .siteforceNapiliBody .cFooterPanel .footer-content, body .siteforceNapiliBody .cFooterPanel .ctaPanel {
   position: relative;
   z-index: 10;
+  margin-top: 0;
 }
 body .siteforceNapiliBody .cFooterPanel .footer-spot {
   position: absolute;
@@ -120,6 +121,14 @@ body .siteforceNapiliBody .cFooterPanel .cta-btn .uiButton {
   background: transparent;
   border: 2px solid #fff;
   width: 220px;
+  border-radius: 2px;
+  padding: 15px 0;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 1em;
+  -webkit-transition: background .8s ease;
+  transition: background .8s ease;
+  text-decoration: none;
 }
 body .siteforceNapiliBody .cFooterPanel .cta-btn .uiButton:hover {
   background: rgba(0, 0, 0, 0.3) !important;
@@ -319,6 +328,11 @@ h2 {
   }
   body .siteforceNapiliBody .cHeaderLine {
     padding: 55px 14px 135px 14px !important;
+  }
+}
+@media only screen and (min-aspect-ratio: 4 / 3) and (min-width: 48em), only screen and (min-width: 64.0625em) {
+  body .siteforceNapiliBody .cFooterPanel {
+    margin-top: 120px;
   }
 }
 @media only screen and (min-width: 120em) {
