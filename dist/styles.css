@@ -116,6 +116,7 @@ body .siteforceNapiliBody .cFooterPanel .forceCommunityRichText {
 body .siteforceNapiliBody .cFooterPanel .cta-btn {
   width: auto;
   display: block;
+  text-align: center;
 }
 body .siteforceNapiliBody .cFooterPanel .cta-btn .uiButton {
   background: transparent;
