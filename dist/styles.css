@@ -23,6 +23,8 @@ body .forceCommunityNavigationMenu {
 }
 body .forceCommunityNavigationMenu .menuItemLink {
   font-weight: bold;
+  font-family: "vagroundedbold" !important;
+  max-width: none;
 }
 body .forceTopicFeaturedTopics .topicLabel {
   text-transform: lowercase;
