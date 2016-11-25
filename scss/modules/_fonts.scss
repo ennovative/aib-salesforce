@@ -1,3 +1,4 @@
 @import "compass/css3/font-face";
 
 @include font-face("vagrounded", font-files("vagrounded/vagrounded_lt-normal-webfont.woff", "vagrounded/vagrounded_lt-normal-webfont.woff2"));
+@include font-face("vagroundedbold", font-files("vagrounded-bold/vagroundedstd-bold.woff", "vagrounded-bold/vagroundedstd-bold.woff2"));

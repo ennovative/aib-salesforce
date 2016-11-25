@@ -2,6 +2,10 @@
   font-family: "vagrounded";
   src: url('../fonts/vagrounded/vagrounded_lt-normal-webfont.woff') format('woff'), url('../fonts/vagrounded/vagrounded_lt-normal-webfont.woff2') format('woff2');
 }
+@font-face {
+  font-family: "vagroundedbold";
+  src: url('../fonts/vagrounded-bold/vagroundedstd-bold.woff') format('woff'), url('../fonts/vagrounded-bold/vagroundedstd-bold.woff2') format('woff2');
+}
 * {
   font-family: "vagrounded" !important;
   letter-spacing: 1px;
